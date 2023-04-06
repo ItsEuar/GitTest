@@ -16,7 +16,7 @@ body{
     height: 100%;
     margin-top: 250px;
 }
-.div1{
+#div1{
     background-color: #252a38de;
     padding: 30px;
     border-radius: 20px;
@@ -47,7 +47,7 @@ body{
     font-size: 20px;
     margin: 20px 0 0 0;
 }
-.btn{
+#btn{
     border:  3px #E9ECEF solid;
     transition-duration: 0.4s;
     background-color: transparent;
@@ -59,9 +59,16 @@ body{
     border-radius: 10px;
     cursor: pointer;
 }
-.btn:hover{
+#btn:hover{
     transition-duration: 0.4s;
     background-color: #E9ECEF;
     color: #252a38;
+    box-shadow: 2px 10px 12px #1b1b1b;
+}
+#btn:active{
+    transition-duration: 0.4s;
+    background-color: #bcbed4;
+    border-color: #bcbed4;
+    color: #47516d;
     box-shadow: 2px 10px 12px #1b1b1b;
 }
