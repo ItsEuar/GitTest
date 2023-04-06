@@ -4,4 +4,5 @@ const testFunction =()=>{
     newP.className = "p2"
     newP.innerHTML = "Test function is running!";
     div1.appendChild(newP);
+    console.log("My name is Eduardo Cruz 😎");
 }
